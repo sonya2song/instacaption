@@ -1,0 +1,36 @@
+mysql> select listed_location_name, count(*) from venue_words group by listed_location_name order by count(*) desc limit 30;              +-------------------------------------------------------+----------+
+| listed_location_name                                  | count(*) |
++-------------------------------------------------------+----------+
+| Fenway Park                                           |    15476 |
+| Boston Logan International Airport (BOS)              |     5166 |
+| TD Garden                                             |     3234 |
+| Boston Public Garden                                  |     3110 |
+| Boston Common                                         |     3026 |
+| Boston                                                |     2166 |
+| Savin Hill                                            |     1948 |
+| Boston, MA                                            |     1742 |
+| Museum of Fine Arts                                   |     1541 |
+| House of Blues                                        |     1502 |
+| New England Aquarium                                  |     1396 |
+| Copley Square                                         |     1214 |
+| Quincy Market                                         |     1212 |
+| Faneuil Hall Marketplace                              |     1100 |
+| Alphabet Arm Design                                   |     1066 |
+| Starbucks                                             |     1020 |
+| Charles River                                         |      996 |
+| Karmaloop                                             |      887 |
+| JetBlue BOS Terminal C                                |      878 |
+| Terminal B - Boston Logan International Airport (BOS) |      871 |
+| Sam Adams Brewery                                     |      851 |
+| Cheers                                                |      822 |
+| SoWa Open Market                                      |      820 |
+| Boston Public Library                                 |      815 |
+| Museum of Science                                     |      811 |
+| Beacon Hill                                           |      810 |
+| The Esplanade                                         |      791 |
+| Arnold Worldwide                                      |      787 |
+| Newbury Street                                        |      785 |
+| Castle Island                                         |      776 |
++-------------------------------------------------------+----------+
+30 rows in set (3.48 sec)
+
